@@ -1,6 +1,59 @@
 @import url(normalize.css);
 
-:root {}
+:root {
+
+    /* TYPOGRAPHY */
+
+    --primary-font-size: 2rem;
+    --secondary-font-size: 1.8rem;
+    --tertiary-font-size: 1.6rem;
+
+    --link-font-size: 2rem;
+
+    --h1-size: 5.2rem;
+    --h2-size: 4.4rem;
+    --h3-size: 3rem;
+    --h4-size: 2.4rem;
+    --h5-size: 1.8rem;
+
+    --primary-line-height: 1.6;
+    --secondary-line-height: 1.8;
+    --tertiary-line-height: 1.05;
+
+
+    --primary-border-radius: 9px;
+
+
+    --vertical-smaller-padding: 1.2rem;
+    --vertical-larger-padding: 1.6rem;
+    --horizontal-smaller-padding: 2.4rem;
+    --horizontal-larger-padding: 3.2rem;
+
+
+
+    /* COLORS */
+
+    --primary-text-color: #555;
+    --secondary-text-color: #333;
+    --light-text-color: #ddd;
+    --white-text-color: #fff;
+
+
+    --primary-color: #e67e22;
+    --accent-color: #cf711f;
+
+
+    --primary-bg-color: #fdf2e9;
+    --secondary-bg-color: #fae5d3;
+
+    --primary-badge-color: #ffd43b;
+    --secondary-badge-color: #94d82d;
+    --tertiary-badge-color: #51cf66;
+
+
+
+
+}
 
 
 /* Document
@@ -17,6 +70,59 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
-    background-color: #fdf2e9;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--primary-text-color);
+    overflow-x: hidden;
+}
+
+
+/* GENERAL STYLES */
+
+h1 {
+    font-size: var(--h1-size);
+}
+
+h2 {
+    font-size: var(--h2-size);
+
+}
+
+h3 {
+    font-size: var(--h3-size);
+
+}
+
+h4 {
+    font-size: var(--h4-size);
+
+}
+
+h5 {
+    font-size: var(--h5-size);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--secondary-text-color);
+}
+
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+h6 {
+    font-weight: 500;
 }
