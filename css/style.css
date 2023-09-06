@@ -134,7 +134,19 @@ a {
     display: inline-block;
     font-weight: 500;
     color: var(--secondary-text-color);
+    cursor: pointer;
+    transition: all 0.3s;
 }
+
+a:focus {
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+
+}
+
+li {
+    list-style: none;
+}
+
 
 
 /* BUTTONS */
@@ -151,7 +163,6 @@ a {
 .primary--btn {
     background-color: var(--primary-color);
     font-weight: 600;
-    transition: all 0.3s;
 }
 
 
@@ -165,23 +176,52 @@ a {
     background-color: var(--tertiary-bg-color);
     color: var(--primary-text-color);
     font-weight: 600;
-    transition: all 0.3s;
 }
 
 .primary--btn:hover {
     background-color: var(--accent-color);
 }
 
-.primary--btn:focus,
-.btn--accent:focus {
-    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
-
-}
 
 .btn--accent:hover {
     background-color: var(--primary-bg-color);
     box-shadow: inset 0 0 0 3px #fff;
 }
+
+
+/* HEADER + NAVIGATION */
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+
+}
+
+.omnifood-logo {
+    height: 2.2rem;
+}
+
+.navigation .navigation-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 4.8rem;
+}
+
+.navigation-items .navigation-hover-effect:hover {
+    color: var(--primary-color);
+
+}
+
+
+
+
 
 /* HERO SECTION */
 
