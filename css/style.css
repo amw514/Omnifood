@@ -45,6 +45,7 @@
 
     --primary-bg-color: #fdf2e9;
     --secondary-bg-color: #fae5d3;
+    --tertiary-bg-color: #fff;
 
     --primary-badge-color: #ffd43b;
     --secondary-badge-color: #94d82d;
@@ -75,6 +76,8 @@ body {
     font-weight: 400;
     color: var(--primary-text-color);
     overflow-x: hidden;
+    /* TODO remove this */
+    background-color: #fdf2e9;
 }
 
 
@@ -125,4 +128,59 @@ h4 {
 
 h6 {
     font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    display: inline-block;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+
+/* BUTTONS */
+
+
+
+.btn {
+    padding: var(--vertical-larger-padding) var(--horizontal-larger-padding);
+    border-radius: 9px;
+    color: var(--white-text-color);
+    border: none;
+}
+
+.primary--btn {
+    background-color: var(--primary-color);
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+
+
+.primary--btn-smaller {
+    font-size: var(--secondary-font-size);
+    padding: var(--vertical-smaller-padding) var(--horizontal-smaller-padding);
+}
+
+.btn--accent {
+    background-color: var(--tertiary-bg-color);
+    color: var(--primary-text-color);
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.primary--btn:hover {
+    background-color: var(--accent-color);
+}
+
+.primary--btn:focus,
+.btn--accent:focus {
+    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+
+}
+
+.btn--accent:hover {
+    background-color: var(--primary-bg-color);
+    box-shadow: inset 0 0 0 3px #fff;
 }
