@@ -492,7 +492,8 @@ li {
 }
 
 .meal-content li,
-.meals-list li {
+.meals-list li,
+.pricing-benefits li {
     font-size: 1.8rem;
     display: flex;
     justify-content: flex-start;
@@ -589,4 +590,116 @@ li {
 
 .testimonial-gallery img:hover {
     transform: scale(1.1);
+}
+
+/******************************/
+/*** PRICING SECTION ***/
+/******************************/
+
+.pricing-section {
+    padding: 9.6rem 0;
+
+}
+
+.pricing-card {
+    border-radius: 20px;
+    width: 75%;
+}
+
+.pricing-section .pricing-section-header {
+    margin-bottom: 9.6rem;
+}
+
+.pricing-card-starter {
+    padding: 4.8rem;
+    justify-self: end;
+    border: 2px solid #fdf2e9;
+}
+
+.pricing-card-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.pricing-title {
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+}
+
+.pricing-amount {
+    color: var(--secondary-text-color);
+    margin-bottom: 2rem;
+}
+
+.pricing-amount .pricing-currency {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.pricing-amount .pricing-value {
+    font-size: 6.2rem;
+    font-weight: 600;
+
+}
+
+.pricing-description {
+    font-size: var(--tertiary-font-size);
+    color: var(--primary-text-color);
+}
+
+.pricing-button {
+    margin-top: 4.8rem;
+    text-align: center;
+}
+
+.pricing-card-complete {
+    background-color: #fdf2e9;
+    padding: 4.8rem;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+.container .pricing-note {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 9.8rem 0;
+}
+
+.grid--4x1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.feature .features-heading {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feature .feature-description {
+    font-size: var(--secondary-font-size);
+    line-height: var(--secondary-line-height);
+    color: var(--primary-text-color);
+}
+
+.feature-icon {
+    width: 4.8rem;
+    height: 4.8rem;
+    margin-bottom: 1.6rem;
+    background-color: #fdf2e9;
+    border-radius: 50%;
 }
