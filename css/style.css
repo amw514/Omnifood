@@ -703,3 +703,84 @@ li {
     background-color: #fdf2e9;
     border-radius: 50%;
 }
+
+/******************************/
+/*** CALL TO ACTION SECTION ***/
+/******************************/
+
+.cta-section {
+    border-radius: 11px;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    overflow: hidden;
+    color: #442509;
+}
+
+.cta-section .cta-content {
+    padding: 3.2rem 6.4rem;
+}
+
+.cta-content .cta-heading {
+    margin-bottom: 3.8rem;
+}
+
+.cta-content .cta-description {
+    font-size: var(--secondary-font-size);
+    line-height: var(--secondary-line-height);
+    margin-bottom: 3.2rem;
+}
+
+.cta-form {
+    display: grid;
+    font-size: var(--secondary-font-size);
+    font-weight: 600;
+    row-gap: 2rem;
+}
+
+
+
+.cta-form input,
+.cta-form select,
+.cta-form .btn--form {
+    margin: 1.4rem 0;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+select:focus,
+.btn--form:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+
+
+.cta-form .btn--form {
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+}
+
+.cta-form .btn--form:hover {
+    color: #45260a;
+    background-color: #fff;
+}
+
+.cta-img {
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url("../img/eating.jpg");
+    background-position: center;
+    background-size: cover;
+}
