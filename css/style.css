@@ -716,6 +716,7 @@ li {
     background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
     overflow: hidden;
     color: #442509;
+    margin-bottom: 9.6rem;
 }
 
 .cta-section .cta-content {
@@ -783,4 +784,78 @@ select:focus,
     background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url("../img/eating.jpg");
     background-position: center;
     background-size: cover;
+}
+
+/******************************/
+/*** FOOTER SECTION ***/
+/******************************/
+
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+    color: #767676;
+
+}
+
+.grid--5x1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.social-icons .social-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    transition: all 0.3s;
+    margin: 2.8rem 0 3.2rem 0;
+    stroke: var(--primary-text-color);
+}
+
+.social-icons .social-icon:hover {
+    transform: scale(1.1);
+    stroke: var(--secondary-text-color);
+}
+
+.footer .copyright-description {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: var(--primary-line-height);
+}
+
+.footer .footer-heading {
+    font-weight: 500;
+    color: var(--secondary-text-color);
+    margin-bottom: 4rem;
+}
+
+.footer .address {
+    font-size: var(--tertiary-font-size);
+    color: var(--secondary-text-color);
+    letter-spacing: 0.75px;
+    margin-bottom: 3.6rem;
+}
+
+.footer a {
+    font-size: var(--tertiary-font-size);
+    font-weight: 400;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+
+.contact-footer a,
+.account-footer a,
+.company-footer a,
+.resources-footer a {
+    margin-bottom: 1.8rem;
+}
+
+.footer a:hover {
+    color: var(--secondary-text-color);
 }
