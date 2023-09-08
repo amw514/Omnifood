@@ -604,6 +604,13 @@ li {
 .pricing-card {
     border-radius: 20px;
     width: 75%;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+
+    transition: all 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-2rem);
 }
 
 .pricing-section .pricing-section-header {
