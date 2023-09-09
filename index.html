@@ -2,7 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,12 +38,22 @@
 
       <nav class="navigation">
         <ul class="navigation-items">
-          <li><a class="navigation-hover-effect" href="">How it works</a></li>
-          <li><a class="navigation-hover-effect" href="">Meals</a></li>
-          <li><a class="navigation-hover-effect" href="">Testimonials</a></li>
-          <li><a class="navigation-hover-effect" href="">Pricing</a></li>
           <li>
-            <a href="#" class="btn primary--btn primary--btn-smaller"
+            <a class="navigation-hover-effect" href="#guidlines"
+              >How it works</a
+            >
+          </li>
+          <li><a class="navigation-hover-effect" href="#meals">Meals</a></li>
+          <li>
+            <a class="navigation-hover-effect" href="#testimonial"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a class="navigation-hover-effect" href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a href="#cta" class="btn primary--btn primary--btn-smaller"
               >Try for free</a
             >
           </li>
@@ -60,8 +78,8 @@
             healthy again. Tailored to your personal tastes and nutritional
             needs.
           </p>
-          <a href="#" class="btn primary--btn">Start eating well</a>
-          <a href="#" class="btn btn--accent">Learn more ↓</a>
+          <a href="#cta" class="btn primary--btn">Start eating well</a>
+          <a href="#guidlines" class="btn btn--accent">Learn more ↓</a>
 
           <div class="delivered-meals">
             <div class="delivered-img">
@@ -106,7 +124,7 @@
 
     <!-- Guidelines section -->
 
-    <section class="guidlines">
+    <section id="guidlines" class="guidlines">
       <div class="container">
         <div class="guidlines-header">
           <span class="tagline">How it works</span>
@@ -170,7 +188,7 @@
 
     <!-- Meals section -->
 
-    <section class="meals-section">
+    <section id="meals" class="meals-section">
       <div class="meals-header">
         <p class="tagline">MEALS</p>
         <h2>Omnifood AI chooses from 5,000+ recipes</h2>
@@ -475,13 +493,13 @@
         </div>
       </div>
       <div class="all-recipes">
-        <a href="">See all recipes -> </a>
+        <a href="#">See all recipes -> </a>
       </div>
     </section>
 
     <!-- Testimonial section -->
 
-    <section class="testimonial-section">
+    <section id="testimonial" class="testimonial-section">
       <!-- <div class="grid--2x1"> -->
       <div class="testimonial-content">
         <div class="testimonial-header">
@@ -619,7 +637,7 @@
 
     <!-- Pricing section  -->
 
-    <section class="container pricing-section">
+    <section id="pricing" class="container pricing-section">
       <div class="container pricing-section-header">
         <p class="tagline">Pricing</p>
         <h2>Eating well without breaking the bank</h2>
@@ -865,7 +883,7 @@
 
     <!-- Call to action section -->
 
-    <section class="call-to-action">
+    <section id="cta" class="call-to-action">
       <div class="container">
         <section class="cta-section">
           <div class="cta-content">
