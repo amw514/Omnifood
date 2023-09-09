@@ -240,8 +240,15 @@
 }
 
 @media screen and (max-width: 700px) {
+
+    .header {
+        overflow: none;
+    }
+
+
     .btn-mobile-nav {
         display: block;
+        z-index: 9999;
     }
 
     .navigation {
@@ -261,21 +268,19 @@
         transition: all 0.5s ease-in;
 
         /* Hide */
-        opacity: 0;
-
+        /* opacity: 0; */
+        opacity: none;
         pointer-events: none;
-
         visibility: hidden;
     }
 
     .nav-open .navigation {
         opacity: 1;
         pointer-events: auto;
-
         visibility: visible;
         transform: translateX(0);
-
     }
+
 
     .nav-open .icon-mobile-nav[name="close-outline"] {
         display: block;
