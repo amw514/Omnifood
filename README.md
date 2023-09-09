@@ -1,12 +1,16 @@
 # Omnifood
 A landing page project developed with HTML and CSS, focused on promoting a healthy diet using AI-powered meal planning. For educational purposes.
 
-![Screenshot](https://github.com/amw514/Omnifood/blob/main/img/Omnifood-screenshot-min.png)
-
 
 ## Live Demo
 
 You can view the live demo of the website [Here](https://amw514.github.io/Omnifood/).
+
+##Overview
+
+![Screenshot](https://github.com/amw514/Omnifood/blob/main/img/Omnifood-screenshot-min.png)
+
+
 
 ## Features
 
