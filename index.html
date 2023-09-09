@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaQueries.css" />
+
     <title>Omnifood</title>
   </head>
   <body>
@@ -39,6 +41,10 @@
           </li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <!-- Hero section -->
@@ -80,6 +86,20 @@
             src="img/hero.png"
             alt="Woman enjoying food, meals in storage container, and food bowls on a table"
           />
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="featured-section">
+      <div class="container">
+        <h2 class="featured-heading">As featured in</h2>
+        <div class="featured-companies-logo">
+          <img src="img/logos/techcrunch.png" alt="Techcrunch company logo" />
+          <img src="img/logos/business-insider.png" alt="" />
+          <img src="img/logos/the-new-york-times.png" alt="" />
+          <img src="img/logos/forbes.png" alt="" />
+          <img src="img/logos/usa-today.png" alt="" />
         </div>
       </div>
     </section>
@@ -462,145 +482,145 @@
     <!-- Testimonial section -->
 
     <section class="testimonial-section">
-      <div class="grid--2x1">
-        <div class="testimonial-content">
-          <div class="testimonial-header">
-            <p class="tagline">Testimonials</p>
-            <h2>Once you try it, you can't go back</h2>
-          </div>
-          <div class="testimonials-grid grid--2x1">
-            <figure class="testimonial">
-              <img
-                class="testimonial-img"
-                src="img/customers/dave.jpg"
-                alt="Customer Dav picture"
-              />
-              <blockquote class="customer-testimonial">
-                Inexpensive, healthy and great-tasting meals, without even
-                having to order manually! It feels truly magical.
-              </blockquote>
-              <p class="customer-name">— Dave Bryson</p>
-            </figure>
-            <figure class="testimonial">
-              <img
-                class="testimonial-img"
-                src="img/customers/ben.jpg"
-                alt="Customer Ben picture"
-              />
-              <blockquote class="customer-testimonial">
-                The AI algorithm is crazy good, it chooses the right meals for
-                me every time. It's amazing not to worry about food anymore!
-              </blockquote>
-              <p class="customer-name">— Ben Hadley</p>
-            </figure>
-            <figure class="testimonial">
-              <img
-                class="testimonial-img"
-                src="img/customers/steve.jpg"
-                alt="Customer Steve picture"
-              />
-              <blockquote class="customer-testimonial">
-                Omnifood is a life saver! I just started a company, so there's
-                no time for cooking. I couldn't live without my daily meals now!
-              </blockquote>
-              <p class="customer-name">— Steve Miller</p>
-            </figure>
-            <figure class="testimonial">
-              <img
-                class="testimonial-img"
-                src="img/customers/hannah.jpg"
-                alt="Customer Hannah picture"
-              />
-              <blockquote class="customer-testimonial">
-                I got Omnifood for the whole family, and it frees up so much
-                time! Plus, everything is organic and vegan and without plastic.
-              </blockquote>
-              <p class="customer-name">— Hannah Smith</p>
-            </figure>
-          </div>
+      <!-- <div class="grid--2x1"> -->
+      <div class="testimonial-content">
+        <div class="testimonial-header">
+          <p class="tagline">Testimonials</p>
+          <h2>Once you try it, you can't go back</h2>
         </div>
-
-        <div class="testimonial-gallery grid--3x1">
-          <div class="gallery-item">
+        <div class="testimonials-grid grid--2x1">
+          <figure class="testimonial">
             <img
-              src="img/gallery/gallery-1.jpg"
-              alt="Photo of beautiful and tasty food"
+              class="testimonial-img"
+              src="img/customers/dave.jpg"
+              alt="Customer Dav picture"
             />
-          </div>
-          <div class="gallery-item">
+            <blockquote class="customer-testimonial">
+              Inexpensive, healthy and great-tasting meals, without even having
+              to order manually! It feels truly magical.
+            </blockquote>
+            <p class="customer-name">— Dave Bryson</p>
+          </figure>
+          <figure class="testimonial">
             <img
-              src="img/gallery/gallery-2.jpg"
-              alt="Photo of beautiful and tasty food"
+              class="testimonial-img"
+              src="img/customers/ben.jpg"
+              alt="Customer Ben picture"
             />
-          </div>
-          <div class="gallery-item">
+            <blockquote class="customer-testimonial">
+              The AI algorithm is crazy good, it chooses the right meals for me
+              every time. It's amazing not to worry about food anymore!
+            </blockquote>
+            <p class="customer-name">— Ben Hadley</p>
+          </figure>
+          <figure class="testimonial">
             <img
-              src="img/gallery/gallery-3.jpg"
-              alt="Photo of beautiful and tasty food"
+              class="testimonial-img"
+              src="img/customers/steve.jpg"
+              alt="Customer Steve picture"
             />
-          </div>
-          <div class="gallery-item">
+            <blockquote class="customer-testimonial">
+              Omnifood is a life saver! I just started a company, so there's no
+              time for cooking. I couldn't live without my daily meals now!
+            </blockquote>
+            <p class="customer-name">— Steve Miller</p>
+          </figure>
+          <figure class="testimonial">
             <img
-              src="img/gallery/gallery-4.jpg"
-              alt="Photo of beautiful and tasty food"
+              class="testimonial-img"
+              src="img/customers/hannah.jpg"
+              alt="Customer Hannah picture"
             />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-5.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-6.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-7.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-8.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-9.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-10.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-11.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
-          <div class="gallery-item">
-            <img
-              src="img/gallery/gallery-12.jpg"
-              alt="Photo of beautiful and tasty food"
-            />
-          </div>
+            <blockquote class="customer-testimonial">
+              I got Omnifood for the whole family, and it frees up so much time!
+              Plus, everything is organic and vegan and without plastic.
+            </blockquote>
+            <p class="customer-name">— Hannah Smith</p>
+          </figure>
         </div>
       </div>
+
+      <div class="testimonial-gallery grid--3x1">
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-1.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-2.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-3.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-4.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-5.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-6.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-7.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="img/gallery/gallery-8.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item gallery-item-none">
+          <img
+            src="img/gallery/gallery-9.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item gallery-item-none">
+          <img
+            src="img/gallery/gallery-10.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item gallery-item-none">
+          <img
+            src="img/gallery/gallery-11.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+        <figure class="gallery-item gallery-item-none">
+          <img
+            src="img/gallery/gallery-12.jpg"
+            alt="Photo of beautiful and tasty food"
+          />
+        </figure>
+      </div>
+      <!-- </div> -->
     </section>
 
     <!-- Pricing section  -->
 
     <section class="container pricing-section">
-      <div class="pricing-section-header">
+      <div class="container pricing-section-header">
         <p class="tagline">Pricing</p>
         <h2>Eating well without breaking the bank</h2>
       </div>
@@ -884,7 +904,7 @@
             </form>
           </div>
           <div class="cta-img">
-            <img alt="A girl enjoying her meal" />
+            <img aria-label="A girl enjoying her meal" />
           </div>
         </section>
       </div>
@@ -973,7 +993,7 @@
           </ul>
         </div>
         <div class="company-footer">
-          <h5 class="footer-heading">Account</h5>
+          <h5 class="footer-heading">Company</h5>
           <ul>
             <li><a href="">About Omnifood</a></li>
             <li><a href="">For business</a></li>
@@ -991,5 +1011,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
   </body>
 </html>
