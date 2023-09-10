@@ -1,5 +1,5 @@
 # Omnifood
-A landing page project developed with HTML and CSS, focused on promoting a healthy diet using AI-powered meal planning. For educational purposes.
+A landing page project developed with HTML and CSS, focused on promoting a healthy diet using AI-powered meal planning. For educational purposes. This project is a landing page and serve its purpose for healthy diet.
 
 
 ## Live Demo
